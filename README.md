@@ -1,2 +1,26 @@
-# NXP-mbed-LPC1768-Projects
-This repository contains a series of embedded projects built using the NXP mbed LPC1768 development board. Each project demonstrates different aspects of embedded programming — including GPIO control, sensor interfacing, communication protocols (UART, I2C, SPI), PWM control, and real-time data processing. Designed for learning and experimentation, these examples are ideal for students and developers exploring ARM Cortex-M3 based microcontrollers and the mbed OS environment.
+# LCD Display with Ultrasonic Sensor using NXP mbed LPC1768
+
+## 🔧 Components Used
+- NXP mbed LPC1768 Development Board  
+- 16x2 LCD Display  
+- Ultrasonic Sensor (HC-SR04)  
+- LED  
+- Buzzer  
+
+## 🧠 Project Overview
+This project measures distance using an ultrasonic sensor and displays the result on a 16x2 LCD.  
+If the measured distance falls below a threshold, an LED and buzzer are activated as a warning indicator.
+
+## ⚙️ Features
+- Real-time distance measurement  
+- Visual alert on LCD display  
+- Audible and LED alerts for nearby objects  
+- Demonstrates interfacing of peripherals with LPC1768 using mbed APIs
+
+## 🧩 Code Highlights
+- Utilizes `DigitalOut`, `AnalogIn`, and `Timer` classes from mbed library  
+- Displays data using standard 4-bit LCD communication  
+- Simple threshold-based alert logic
+
+## 📷 Output
+(You can add images or circuit diagram later)
