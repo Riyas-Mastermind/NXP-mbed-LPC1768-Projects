@@ -23,4 +23,4 @@ If the measured distance falls below a threshold, an LED and buzzer are activate
 - Simple threshold-based alert logic
 
 ## 📷 Output
-(You can add images or circuit diagram later)
+<img width="989" height="1202" alt="image" src="https://github.com/user-attachments/assets/f4f333c2-f2dd-488c-a9e2-ab7aefefe73a" />
